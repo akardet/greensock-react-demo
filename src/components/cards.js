@@ -48,7 +48,7 @@ export default class cards extends Component {
               className="card-element"
               ref={div => (this.cards[index] = div)}
             >
-              <div className="card">
+              <div tabIndex="0" role="card" className="card">
                 <div className="card-body">
                   <h4>{element.name}</h4>
                   <div className="media">
