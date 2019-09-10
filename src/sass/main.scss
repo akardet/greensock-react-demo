@@ -1,1 +1,5 @@
-@import "base.scss";
+@import "typography";
+
+@import "./partials/base";
+@import "./partials/layout";
+@import "./partials/landing";
