@@ -12,13 +12,6 @@ export default class cards extends Component {
       .clear()
       .pause(0)
 
-    return (
-      <section
-        role="region"
-        tabIndex="0"
-        id="cards"
-        className="cards"
-      ></section>
-    )
+    return <section tabIndex="0" id="cards" className="cards"></section>
   }
 }
