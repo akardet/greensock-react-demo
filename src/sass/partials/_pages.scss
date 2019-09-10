@@ -7,4 +7,40 @@
 
 .cards {
   background-color: black;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, max-content));
+    justify-content: center;
+    grid-gap: 3rem;
+    margin-top: 10rem;
+  }
+
+  .card {
+    &-element {
+      opacity: 0;
+      visibility: hidden;
+      padding: 1rem;
+      background-color: #f1e7da;
+      color: #181b2f;
+      border-radius: 3px;
+    }
+
+    img {
+      max-width: 300px;
+    }
+
+    &-body {
+      display: grid;
+      grid-template-rows: max-content 1fr;
+
+      h4 {
+        grid-row: 2;
+      }
+
+      img {
+        grid-row: 1;
+      }
+    }
+  }
 }

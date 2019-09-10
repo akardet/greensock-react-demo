@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
 
 export default class landing extends Component {
   render() {
@@ -7,6 +7,6 @@ export default class landing extends Component {
         <h1>Playing with Greensock</h1>
         <h2>By: Sam</h2>
       </section>
-    )
+    );
   }
 }
